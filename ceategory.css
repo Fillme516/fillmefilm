@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Patrick Hand';
+  
+}
+body{
+  width: 1200px;
+  height: 1025px;
+  background-color: #0b172b;
+}
+.navbar {
+  width: 85%;
+  margin: 0;
+  padding: 25px 73px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;  
+  margin: 0 20px;
+  position: relative;
+  
+}     
+.navbar ul li a {
+  text-decoration: none;
+  color: #6FFFE9;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+img{
+  width:110px;
+}
+.container {
+  width: 1200px;
+  height: 1025px ;
+  background-size: cover;
+  background-position: center;
+}
+button{
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  border:solid 3px  #fff;
+  border-radius:35px;
+  background-color: #8426FFB5;
+}
+.icons{
+  display: inline;
+}
+button span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #6FFFE9;
+}
+.docu{
+  font-size: 10px;
+}
+a{
+  text-decoration: none;
+}
+.fa-home{
+  padding: 10px;
+}
+.fa-language {
+  padding: 10px;
+}
+.fa-sliders {
+  padding: 10px;
+}
+button .fa-solid{
+  color: #6FFFE9;
+}
+.iconlist{
+  width: 1200px;
+  position: absolute;
+  text-align: center;
+}
+.info{
+  background-color: #FFFFFFC4;
+  width: 80%;
+  height: 100px;
+  margin-left: 110px;
+  padding-top: 10px;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  border: solid 5px #FFFFFF;
+  border-radius: 10px;
+}
+.info h1{
+  color: red;
+  text-transform: uppercase;
+}
+.green {
+  color: green;
+}
+
+@media (max-width :500px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+}
