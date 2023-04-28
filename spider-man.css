@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Patrick Hand';
+  
+}
+body{
+  width: 1200px;
+  height: 1025px;
+  background-color: #0b172b;
+}
+.navbar {
+  width: 85%;
+  margin: 0;
+  padding: 25px 73px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;  
+  margin: 0 20px;
+  position: relative;
+  
+}     
+.navbar ul li a {
+  text-decoration: none;
+  color: #6FFFE9;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+img{
+  width:110px;
+}
+.backban{
+  width:100%;
+  height: 600px;
+  background: linear-gradient(#00000087,#0000007A),url(/img/spiderban.jpg);
+  background-size: cover;
+}
+.backpost{
+  width: 700px;
+  transform: translateY(350px);
+}
+.backpost img{
+  width: 220px;
+  height: 350px;
+  margin: 35px;
+  border: solid 20px #0b172b;
+}
+.title{
+ text-transform: uppercase ;
+ color: #6FFFE9;
+ padding-left: 300px;
+ padding-top: 40px;
+ padding-bottom: 50px;
+ font-size: 80px;
+}
+.content{
+  padding: 40px;
+  text-align: center;
+}
+
+.content i{
+  font-size: 120px;
+  color: yellow;
+}
+.content a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: bolder;
+  align-items: center;
+}
+.link i{
+  color: red;
+  font-size: 50px;
+}
+.link button{
+  width: 350px;
+  border-radius: 30px;
+  border: solid blue;
+  background-color: blue;
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+}
+.link p{
+  padding: 39px;
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+}
+.fa-solid{
+  padding: 20px;
+}
