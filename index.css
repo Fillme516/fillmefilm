@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Patrick Hand';
+  color: white;
+  text-decoration: none;
 }
 body {
   width: 100vw;
@@ -19,9 +21,8 @@ body {
 .navbar ul li {
   list-style: none;
   display: inline-block;  
-  margin: 0 20px;
+  margin: 0 15px;
   position: relative;
-  
 }     
 .navbar ul li a {
   text-decoration: none;
@@ -34,84 +35,55 @@ body {
   color: #6fffe9;
   font-size: 25px;
 }
-.banner  {
-  width: 100vw;
-  padding-top:100px; 
-  height: auto;
-  position: absolute;
-  text-align: center;
-  color: #fff;
-}
 .logo{
-  width: 300px;
-}
-.container{
-  width: 100vw;
-  height: 100vh;
-}
-.search{
-  width: 100vw;
-  position: absolute;
-  align-content: center;
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
-.search form i{
-  margin: 12px; 
+.logo img{
+  width: 500px;
 }
-.search form{
-  margin-top: 350px;
-  width: 650px;  
-  /* position: absolute;
-  text-align: center; */
-  background :#5BC0BEB0;
-  border: solid 3px #6fffe9;
-  border-radius: 50px;
+.sc{
+  display: flex;
+  justify-content: center;
 }
-input{
-  border: none;
-  outline: none;
-  width: 550px;
-  height: 50px;
-  background : transparent;
-  color: #FFFFFF;
-  font-size: 25px;
+.search-container{
+   display: flex;
+   justify-content: center;
+   border: solid 5px #6fffe9;
+   background: #FFFFFF82;
+   width: 600px;
+   height: 30px;
+   margin: 50px;
+   border-radius: 50px;
 }
 ::placeholder{
-  padding: 5px;
   color: #FFFFFF8F;
-  font-size: 25px;
+  font-size: 20px;
 }
-
-i{
-  color: #FFFFFF;
-  font-size: 125px;
+.search-container i{
+  margin: 5px 9px 0 9px;
 }
-
-h1{
-  color: white;
-  text-transform: uppercase;
-  margin-top: 600px;
-  padding: 10px;
-  background-color: purple;
+.search{
+  border: transparent;
+  background: transparent;
+  width: 580px;
+  padding-left: 5px;
+  font-size: 20px;
 }
-.recent{
-  width: 100vw;
-  height: auto;
-  background-color: #AF39E03B;
-}
- .link-list a{
-  text-decoration: none;
+.upload {
+  background: #5057D5;
   font-size: 35px;
-  color: white;
+  margin-top: 35px;
+  padding-left: 10px;
+  text-transform: uppercase;
 }
-.link-list{
-  padding: 20px;
+.container{
+  background: #7C28FF8C;
+  margin: 0;
 }
-.link-list span{
-  display: block;
-  padding: 20px;
+.item{
+  padding: 10px;
+  padding-left: 15px;
 }
 .tele i {
   font-size: 80px;
@@ -131,70 +103,43 @@ h1{
   margin-top: 5px;
   margin-right: 25px;
 }
-@media (max-width :500px) {
-  
-.navbar {
-  width: 85%;
-  height: 35px;
-  padding: 30px;
+.hide {
+  display: none;
 }
-.navbar ul {
-  height: 35px;
-}
-.navbar ul li {
-  margin: 0px;
-  position: relative;
-}
-.navbar ul li a {
-  font-size: 15px;
-  margin-left: 0px;
-}
-.navbar ul li a i{
-  padding: 5px;
-  margin: 0;
-  color: #6fffe9;
-  font-size: 15px;
-  }
-.logo {
-  width: 250px;
-}
-.banner {
-  padding-top: 0px;
-}
-.search form i {
-  margin: 10px;
-}
-.search form {
-  margin-top: 200px;
-  width: 350px;
-  border: solid 3px #6fffe9;
-  border-radius: 50px;
-}
-input{
-  width: 300px;
-  height: 35px;
-  font-size: 19px;
-}
-::placeholder{
-  padding: 5px;
-  font-size: 19px;
-}
-h1{
-  margin-top: 300px;
-  padding: 10px;
-  font-size: 15px;
-}
- .link-list a{
-  font-size: 15px;
-}
-.link-list{
-  padding: 10px;
-}
-.link-list span{
-  display: block;
-  padding: 5px;
-}
-.tele i{
+@media (max-width :500px){
+    .navbar ul li a {
+      font-size: 12px;
+    }
+    .navbar ul li a i {
+      padding: 3px;
+      font-size: 10px;
+    }
+    .navbar ul li {
+      margin: 0 5px;
+    }
+    .navbar {
+      padding: 20px 10px;
+    }
+    .logo img {
+      width: 200px;
+    }
+    .search-container{
+      width: 300px;
+      height: 30px;
+      margin: 20px;
+      border: solid 3px #6fffe9;
+    }
+    ::placeholder{
+      font-size: 15px;
+    }
+    .search-container i{
+      font-size: 12px;
+      margin:8px 0 2px 6px;
+    }
+    .upload {
+      margin-top: 25px;
+    }
+    .tele i{
   font-size: 40px;
   margin: 20px;
 }
@@ -202,5 +147,7 @@ h1{
   margin-right: 13px;
   font-size: 15px;
 }
-
+    
+    
+    
 }
