@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
 body{
   width: 100vw;
@@ -197,5 +196,11 @@ button span {
   margin-right: 13px;
   font-size: 15px;
 }
-
+.item a{
+  font-size: 10px;
+}
+.item{
+width: 100px;
+  
+}
 }
