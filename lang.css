@@ -96,8 +96,8 @@ img{
 }
 
 .item img {
-  width: 150px;
-  height: 200px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 10px;
 }
 
@@ -155,7 +155,7 @@ input {
 }
 .item{
 width: 100px;
-  margin:0;
+ 
 }
 
 
